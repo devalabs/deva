@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: `/${deva}`,
-  assetPrefix: `/${deva}/`,
+  basePath: `/${repoName}`,
+  assetPrefix: `/${repoName}/`,
   typescript: {
     ignoreBuildErrors: true,
   },
