@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const repoName = "deva"; // ✅ string
+
 const nextConfig = {
   output: "export",
   basePath: `/${repoName}`,
