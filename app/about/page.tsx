@@ -79,11 +79,11 @@ export default function AboutPage() {
 
       {/* Bottom Navigation */}
       <nav className="fixed bottom-8 left-2 z-50 flex items-center gap-6 text-xs tracking-wider">
-        <a href="/" className="hover:text-zinc-400 transition-colors">
+        <a href="/deva" className="hover:text-zinc-400 transition-colors">
           [ HOME ]
         </a>
         <a
-          href="/about"
+          href="/deva/about"
           className="text-xs tracking-wider hover:text-zinc-400 transition-colors"
         >
           [ SOBRE ]
